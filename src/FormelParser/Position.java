@@ -12,11 +12,18 @@ package FormelParser;
 class Position
 {
 
+    /**
+     * Creates a new Position class
+     * @param value 
+     */
     public Position(int value)
     {
         Pos = value;
     }
 
+    /**
+     * The current posiiton in an expressionstring
+     */
     public Position()
     {
         this(0);
