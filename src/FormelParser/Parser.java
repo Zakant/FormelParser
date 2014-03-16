@@ -14,6 +14,13 @@ import java.util.*;
 public class Parser
 {
 
+    /**
+     * Parses an expressionstring and return its value
+     * @param s
+     * @return The numeric value of the string
+     * @throws ArgumentException
+     * @throws InvalidOperationException 
+     */
     public static Double ParsString(String s) throws ArgumentException, InvalidOperationException
     {
         Position p = new Position();
