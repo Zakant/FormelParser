@@ -12,6 +12,9 @@ package FormelParser;
 public class ArgumentException extends Exception
 {
 
+	/**
+	 * Creates a new ArgumentException
+	 */
     public ArgumentException(String msg)
     {
         super(msg);

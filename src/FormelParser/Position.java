@@ -22,7 +22,7 @@ class Position
     }
 
     /**
-     * The current posiiton in an expressionstring
+     * The current position in an expression string
      */
     public Position()
     {
